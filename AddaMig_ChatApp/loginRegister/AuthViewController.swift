@@ -10,6 +10,8 @@ import FirebaseAuth
 import GoogleSignIn
 import Firebase
 import FirebaseDatabase
+
+
 class AuthViewController: UIViewController, GIDSignInUIDelegate, UITextFieldDelegate {
 
     //properties:

@@ -10,6 +10,8 @@ import FirebaseAuth
 import GoogleSignIn
 import Firebase
 import FirebaseDatabase
+
+
 class AuthViewController: UIViewController, GIDSignInUIDelegate, UITextFieldDelegate {
 
     //properties:
@@ -149,8 +151,8 @@ class AuthViewController: UIViewController, GIDSignInUIDelegate, UITextFieldDele
 
         //google gmail sign in -> more at AppDelegate
         //auto sign in after first sign in with gmail(premission granted)
-        GIDSignIn.sharedInstance().uiDelegate=self
-        GIDSignIn.sharedInstance().signIn()
+        GIDSignIn.sharedInstan().uiDelegate=self
+        GIDSignIn.sharedInstan().signIn()
         
         
         //auth state listener:
